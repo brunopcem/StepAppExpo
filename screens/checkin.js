@@ -66,16 +66,11 @@ const checkin = ({ route }) => {
 
     return(
         <SafeAreaView style={styles.container}>
-            <HeaderBar
-                right={false}
-            />
-
-            <ScrollView>
-                <View style={{ flex: 1 }}>
-                    {renderTrade()}
-                    {renderCheckinHistory()}
-                </View>
-            </ScrollView>
+            <HeaderBar right={false}/>
+            <View style={{ flex: 1 }}>
+                {renderTrade()}
+                {renderCheckinHistory()}
+            </View>
         </SafeAreaView>
     )
 }

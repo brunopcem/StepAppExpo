@@ -39,7 +39,7 @@ const ScrollableTab = ({ tabList, selectedTab, onPress }) => {
                 showsHorizontalScrollIndicator={false}
                 data={tabList}
                 renderItem={renderItem}
-                keyExtractor={item => item.id}
+                keyExtractor={item => item.id.toString()}
             />
         </View>
     )
@@ -96,7 +96,7 @@ const ScrollableCard = ({ navigation, productList }) => {
                 showsHorizontalScrollIndicator={false}
                 data={productList}
                 renderItem={renderCard}
-                keyExtractor={item => item.productId}
+                keyExtractor={item => item.productId.toString()}
             />
         </View>
     )

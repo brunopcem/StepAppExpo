@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Step2.0",
-    "slug": "Step2.0",
+    "name": "Step2",
+    "slug": "Step2",
     "version": "1.0.0",
     "orientation": "portrait",  
     "icon": "./assets/icon.png",

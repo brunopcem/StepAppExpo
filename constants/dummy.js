@@ -4,7 +4,6 @@ export const checkinHistory = [
         id: 1,
         data: "24/02/2021",
         nome: "Cainan Valentim",
-        type: "B",
         hora: "14:20 12 Apr"
     },
     {
